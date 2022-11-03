@@ -7,7 +7,7 @@
 "use strict"
 
 /**
- * Check servie worker.
+ * Check servcie worker.
  */
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register("/ICS2O-Unit3-04-JS/sw.js", {
@@ -16,8 +16,15 @@ if (navigator.serviceWorker) {
 }
 
 /**
- * This function displays an alert.
+ * This function converts fahrenheit to celsius.
  */
-function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+function convert() {
+  //input
+  const fahrenheit = parseFloat(document.getElementById("fahrenheit").value)
+
+  //process
+  const celsius = (fahrenheit - 32) * (5.0 / 9.0)
+
+  //output
+  document.getElementById("celsius").innerHTML = `Celsius: ${celsius.toFixed(2} °C`
 }

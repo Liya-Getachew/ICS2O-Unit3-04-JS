@@ -22,7 +22,7 @@
 }
 
 body {
-  background-color: rgb(154 211 232);
+  background-color: rgb(204 223 229);
 }
 
 p {
@@ -36,4 +36,12 @@ p {
 img {
   float: right;
   margin-right: 15px;
+}
+
+.value {
+  font-size: 130%;
+}
+
+#celsius {
+  padding-top: 30px;
 }
