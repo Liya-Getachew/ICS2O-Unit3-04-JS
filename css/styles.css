@@ -33,7 +33,7 @@ p {
   padding-top: 15pt;
 }
 
-img {
+#thermometer {
   float: right;
   margin-right: 15px;
 }
@@ -44,4 +44,8 @@ img {
 
 #celsius {
   padding-top: 30px;
+}
+
+input[type="text"] {
+  width:250px
 }

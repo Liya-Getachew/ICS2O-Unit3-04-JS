@@ -27,6 +27,6 @@ function convert() {
 
   //output
   document.getElementById("celsius").innerHTML = `Celsius: ${celsius.toFixed(
-    2
+    4
   )} °C`
 }

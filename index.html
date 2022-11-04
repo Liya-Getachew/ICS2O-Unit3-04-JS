@@ -52,10 +52,15 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">convert fahrenheit to celsius</span>
+          <span class="mdl-layout-title">convert fahrenheit (°F) to celsius (°C)</span>
         </div>
       </header>
       <main class="mdl-layout__content">
+        <p>Enter temperature in fahrenheit here:</p>
+        <div id="thermometer">
+          <p>Formula: 0°C = (32°F - 32) * 5/9</p>
+          <img src="./images/temperatures.svg" alt="thermometer" height="350" width="250">
+        </div>
         <!-- Numeric Textfield -->
         <form action="#" class="value">
           Fahrenheit:
